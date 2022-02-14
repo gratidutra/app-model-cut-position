@@ -7,11 +7,11 @@ from keras.preprocessing.sequence import pad_sequences
 
 
 ## Loading model 
-model = load_model("bin/cut_position.h5")
+model = load_model("cut_position.h5")
 
 ## Loading df
 
-df = pd.read_pickle('bin/df_cut_position.pkl')
+df = pd.read_pickle('df_cut_position.pkl')
 
 
 def prediction (seq):
